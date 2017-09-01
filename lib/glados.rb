@@ -1,0 +1,2 @@
+module Glados
+end

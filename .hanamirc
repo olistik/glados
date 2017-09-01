@@ -1,0 +1,4 @@
+project=glados
+architecture=container
+test=minitest
+template=erb
