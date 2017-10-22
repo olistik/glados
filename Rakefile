@@ -10,3 +10,6 @@ end
 
 task default: :test
 task spec: :test
+
+require_relative './tasks/health_check'
+require_relative './tasks/fake_heartbeats'

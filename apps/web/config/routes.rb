@@ -1,7 +1,7 @@
-# Configure your routes here
-# See: http://hanamirb.org/guides/routing/overview/
-#
-# Example:
-# get '/hello', to: ->(env) { [200, {}, ['Hello from Hanami!']] }
+resources :devices, only: [:create, :index]
+
+namespace "devices" do
+  post "/:device_name/heartbeats", to: "heartbeats#create"
+end
 
 root to: "home#index"

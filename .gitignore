@@ -1,2 +1,6 @@
 /public/assets*
 /tmp
+.DS_Store
+.env.development
+.env.test
+.env.production

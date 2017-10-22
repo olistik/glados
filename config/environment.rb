@@ -2,6 +2,8 @@ require 'bundler/setup'
 require 'hanami/setup'
 require 'hanami/model'
 require_relative '../lib/glados'
+require_relative '../lib/result'
+require_relative '../lib/telegram'
 require_relative '../apps/web/application'
 
 Hanami.configure do
